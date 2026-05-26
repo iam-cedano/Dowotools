@@ -3,3 +3,4 @@ cache/**
 logs/**
 sessions/**
 uploads/**
+writable/**
