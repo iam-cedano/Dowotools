@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    container_name: ci_web
+    container_name: dt_web
     ports:
       - 80:80
     volumes:
@@ -15,7 +15,7 @@ services:
 
   mysql:
     image: mysql:8.0
-    container_name: ci_mysql
+    container_name: dt_mysql
     restart: always
     environment:
       - MYSQL_DATABASE=dowotools
