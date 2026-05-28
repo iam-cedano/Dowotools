@@ -42,7 +42,6 @@ abstract class BaseController extends Controller
      * The creation of dynamic property is deprecated in PHP 8.2.
      */
     // protected $session;
-
     /**
      * @return void
      */
@@ -52,7 +51,11 @@ abstract class BaseController extends Controller
         parent::initController($request, $response, $logger);
 
         // Preload any models, libraries, etc, here.
-
-        // E.g.: $this->session = \Config\Services::session();
     }
+
+    abstract public function getDefferedScriptURIs();
+
+    abstract public function getAsyncScriptURIs();
+
+    abstract public function getStylesheetURIs();
 }
