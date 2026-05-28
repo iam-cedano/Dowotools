@@ -14,6 +14,13 @@
     transform: translateX(-200px);
 }
 
+#main-sidebar.collapsed #sidebar-toggle {
+    right: -40px;
+    background: #1a1a1a;
+    padding: 5px;
+    border-radius: 0 4px 4px 0;
+}
+
 .sidebar-nav ul {
     list-style: none;
     padding: 0;

@@ -45,3 +45,24 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    padding-top: 80px; /* Space for fixed header */
+}
+
+#main-content {
+    margin-left: 250px;
+    transition: margin-left 0.3s ease;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content.sidebar-collapsed {
+    margin-left: 50px;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}

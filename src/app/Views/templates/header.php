@@ -37,6 +37,7 @@
 
     <title><?= lang('Header.page-title')  ?></title>
 </head>
+<body>
 <header>
     <div class="header-content">
         <div class="header-logo">

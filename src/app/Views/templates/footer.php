@@ -1,3 +1,6 @@
-<footer>
-    this is the footer
-</footer>
+    <footer>
+        this is the footer
+    </footer>
+</div>
+</body>
+</html>
