@@ -6,6 +6,37 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        return  view('templates/header', ['defferedScripts' => $this->getDefferedScriptURIs(), 'stylesheets' => $this->getStylesheetURIs()]) .
+                view('templates/sidebar') .
+                view('home') . 
+                view('templates/footer');
+    }
+
+    public function getDefferedScriptURIs(): array
+    {
+
+        $scripts = [];
+
+        $router = service('router');
+
+        $methodName = $router->methodName();
+
+        if ($methodName === 'index') {
+            $scripts[] = base_url('assets/js/home.js');
+        }
+
+        return $scripts;
+    }
+
+    public function getStylesheetURIs(): array
+    {
+        $stylesheets = [];
+
+        return $stylesheets;
+    }
+
+    public function getAsyncScriptURIs(): array
+    {
+        return [];
     }
 }
