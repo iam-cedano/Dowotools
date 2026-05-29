@@ -1,11 +1,11 @@
 <aside id="main-sidebar">
     <nav class="sidebar-nav">
         <ul>
-            <li><a href="#"><img src="<?= base_url('assets/imgs/calculator-logo-32x32.webp') ?>" alt="Calculator icon" class="logo" /> <span class="tool-name">Math</span></a></li>
-            <li><a href="#"><img src="<?= base_url('assets/imgs/text-logo-32x32.webp') ?>" alt="Text icon" class="logo" /> <span class="tool-name">Text</span></a></li>
-            <li><a href="#"><img src="<?= base_url('assets/imgs/windows-11-pictures-logo-32x32.webp') ?>" alt="Picture icon" class="logo" /> <span class="tool-name">Images</span></a></li>
-            <li><a href="#"><img src="<?= base_url('assets/imgs/old-world-logo-32x18.webp') ?>" alt="Microsoft Office World icon" class="logo" /> <span class="tool-name">Office</span></a></li>
-            <li><a href="#"><img src="<?= base_url('assets/imgs/roblox-logo-32x24.webp') ?>" alt="Roblox icon" class="logo" /> <span class="tool-name">Roblox</span></a></li>
+            <li><a href="#"><img src="<?= base_url('assets/imgs/calculator-48x48.webp') ?>" alt="Calculator icon" class="logo" /> <span class="tool-name"><?= lang('Sidebar.Math') ?></span></a></li>
+            <li><a href="#"><img src="<?= base_url('assets/imgs/text-48x48.webp') ?>" alt="Text icon" class="logo" /> <span class="tool-name"><?= lang('Sidebar.Text') ?></span></a></li>
+            <li><a href="#"><img src="<?= base_url('assets/imgs/picture-48x48.webp') ?>" alt="Picture icon" class="logo" /> <span class="tool-name"><?= lang('Sidebar.Images') ?></span></a></li>
+            <li><a href="#"><img src="<?= base_url('assets/imgs/old-world-logo-48x48.webp') ?>" alt="Microsoft Office World icon" class="logo" /> <span class="tool-name"><?= lang('Sidebar.Office') ?></span></a></li>
+            <li><a href="#"><img src="<?= base_url('assets/imgs/roblox-logo-48x48.webp') ?>" alt="Roblox icon" class="logo" /> <span class="tool-name"><?= lang('Sidebar.Roblox') ?></span></a></li>
         </ul>
     </nav>
     <button id="sidebar-toggle" aria-label="Toggle Sidebar">
