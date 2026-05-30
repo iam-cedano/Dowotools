@@ -32,6 +32,14 @@ class Home extends BaseController
     {
         $stylesheets = [];
 
+        $router = service('router');
+
+        $methodName = $router->methodName();
+
+        if ($methodName === 'index') {
+            $stylesheets[] = base_url('assets/css/home.css');
+        }
+
         return $stylesheets;
     }
 
