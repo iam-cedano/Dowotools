@@ -42,9 +42,4 @@ class Home extends BaseController
 
         return $stylesheets;
     }
-
-    public function getAsyncScriptURIs(): array
-    {
-        return [];
-    }
 }
