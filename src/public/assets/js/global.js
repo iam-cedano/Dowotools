@@ -1,7 +1,7 @@
 (function ($) {
   $(document).ready(function () {
     const $toggle = $("#sidebar-toggle");
-    const $mainContent = $("#main-content");
+    const $mainContent = $("main");
     const $title = $("#company-name a");
     const $sidebar = $("#main-sidebar");
 

@@ -53,7 +53,7 @@ abstract class BaseController extends Controller
         // Preload any models, libraries, etc, here.
     }
 
-    abstract public function getDefferedScriptURIs();
+    abstract public function getDeferredScriptURIs();
 
     abstract public function getAsyncScriptURIs();
 
