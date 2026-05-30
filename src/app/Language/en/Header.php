@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'page-title' => 'Dowotools - Variety Tools. For Free. Always',
+    'page-title' => 'Dowotools - Free Online Tools',
     'search-placeholder' => 'Search tools, guides, and more...',
 ];  

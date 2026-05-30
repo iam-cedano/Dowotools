@@ -1,6 +1,5 @@
     <footer>
-        this is the footer
+        <span class="message">Made with ❤️ by <a href="#">Oscar Cedano</a></span>
     </footer>
-</div>
 </body>
 </html>
