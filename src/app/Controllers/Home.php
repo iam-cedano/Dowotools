@@ -6,13 +6,13 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return  view('templates/header', ['defferedScripts' => $this->getDefferedScriptURIs(), 'stylesheets' => $this->getStylesheetURIs()]) .
+        return  view('templates/header', ['deferredScripts' => $this->getDeferredScriptURIs(), 'stylesheets' => $this->getStylesheetURIs()]) .
                 view('templates/sidebar') .
                 view('home') . 
                 view('templates/footer');
     }
 
-    public function getDefferedScriptURIs(): array
+    public function getDeferredScriptURIs(): array
     {
 
         $scripts = [];

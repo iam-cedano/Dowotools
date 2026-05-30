@@ -17,8 +17,8 @@
     ?>
     
     <?php
-    if (isset($defferedScripts)):
-        foreach ($defferedScripts as $script): ?>
+    if (isset($deferredScripts)):
+        foreach ($deferredScripts as $script): ?>
             <script src="<?= $script ?>" type="text/javascript" defer></script>
         <?php endforeach;
     endif;
