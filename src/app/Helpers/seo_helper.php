@@ -14,7 +14,7 @@ if (!function_exists('render_localization_meta_tags')) {
 
             $url = (string) $uriClone;
             ?>
-                <link rel="alternate" hreflang="<?= $locale ?>" href="<?= $url ?>" />
+                <link rel="alternate" hreflang="<?= $locale ?>" href="<?= $url ?>">
             <?php
         }
     }

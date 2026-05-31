@@ -5,7 +5,7 @@ if (!function_exists('async_script_meta_tags')) {
     {
         foreach ($scripts as $script) {
             ?>
-            <script src="<?= $script ?>" type="text/javascript" async></script>
+            <script src="<?= $script ?>" async></script>
             <?php
         }
     }
@@ -16,7 +16,7 @@ if (!function_exists('deferred_script_meta_tags')) {
     {
         foreach ($scripts as $script) {
             ?>
-            <script src="<?= $script ?>" type="text/javascript" defer></script>
+            <script src="<?= $script ?>" defer></script>
             <?php
         }
     }
@@ -27,7 +27,7 @@ if (!function_exists('stylesheet_meta_tags')) {
     {
         foreach ($stylesheets as $stylesheet) {
             ?>
-            <link rel="stylesheet" href="<?= $stylesheet ?>" />
+            <link rel="stylesheet" href="<?= $stylesheet ?>">
             <?php
         }
     }
