@@ -10,7 +10,7 @@
                     <li><a href="<?= url_to('Math::volumeCalculator') ?>">► <?= lang('Home.volume-calculator') ?></a></li>
                 </ul>
             </div>
-            <a class="more-link" href="#"><?= lang('Home.more') ?></a>
+            <a class="more-link" href="<?= url_to('Math::index') ?>"><?= lang('Home.more') ?></a>
         </div>
     </div>
 </main>
