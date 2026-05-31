@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= base_url('assets/css/global.css') ?>" />
+    <link rel="stylesheet" href="<?= base_url('assets/css/global.css') ?>">
 
     <script src="<?= base_url('assets/js/jquery-4.0.0.min.js') ?>" defer></script>
     <script src="<?= base_url('assets/js/global.js') ?>" defer></script>
@@ -37,7 +37,7 @@
             </h1>
         </div>
         <div class="header-search">
-            <input type="text" placeholder="<?= lang('Header.search-placeholder') ?? 'Search...' ?>" />
+            <input type="text" placeholder="<?= lang('Header.search-placeholder') ?? 'Search...' ?>">
         </div>
         <div class="header-third-section">
             <label class="language-selector-label" for="language-selector"><?= lang('Header.language') ?></label>

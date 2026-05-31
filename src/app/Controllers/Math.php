@@ -14,10 +14,10 @@ class Math extends BaseController
                 view('templates/footer');
     }
 
-    public function addToNumbers() {
+    public function addTwoNumbers() {
         return view('templates/header', ['deferredScripts' => $this->getDeferredScriptURIs(), 'stylesheets' => $this->getStylesheetURIs()]) .
                 view('templates/sidebar') .
-                view('tools/math_add_to_numbers') . 
+                view('tools/math_add_two_numbers') . 
                 view('templates/footer');
     }
 
@@ -31,5 +31,11 @@ class Math extends BaseController
         return view('templates/header', ['deferredScripts' => $this->getDeferredScriptURIs(), 'stylesheets' => $this->getStylesheetURIs()]) .
                 view('templates/sidebar') .
                 view('templates/footer');
+    }
+
+    protected function getStylesheetURIs() {
+        return [
+            base_url('assets/css/math.css'),
+        ];
     }
 }

@@ -1,4 +1,12 @@
 <main>
-    <h1 class="text-3xl font-bold mb-4">Math</h1>
-    <p class="mb-4">This is the math page.</p>
+    <div id="topic-list">
+        <div id="math-container" class="container">
+            <div class="topic-name"><span><?= lang('Math.calculator') ?></span></div>
+            <div class="tools">
+                <ul>
+                    <li><a href="<?= url_to('Math::addTwoNumbers') ?>">► <?= lang('Math.sum-of-two-numbers') ?></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </main>
